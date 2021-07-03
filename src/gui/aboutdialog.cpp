@@ -48,7 +48,7 @@ AboutDialog::AboutDialog(QWidget *parent)
     setAttribute(Qt::WA_DeleteOnClose);
 
     // Title
-    m_ui->labelName->setText(QString::fromLatin1("<b><h2>qBittorrent " QBT_VERSION " (%1-bit)</h2></b>").arg(QT_POINTER_SIZE * 8));
+    m_ui->labelName->setText(QString::fromLatin1("<b><h2>zoidtorrent " QBT_VERSION " (%1-bit)</h2></b>").arg(QT_POINTER_SIZE * 8));
 
     m_ui->logo->setPixmap(Utils::Gui::scaledPixmapSvg(UIThemeManager::instance()->getIconPath(QLatin1String("qbittorrent-tray")), this, 32));
 
@@ -56,18 +56,8 @@ AboutDialog::AboutDialog(QWidget *parent)
     const QString aboutText = QString(
         "<p style=\"white-space: pre-wrap;\">"
         "%1\n\n"
-        "%2\n\n"
-        "<table>"
-        "<tr><td>%3</td><td><a href=\"https://www.qbittorrent.org\">https://www.qbittorrent.org</a></td></tr>"
-        "<tr><td>%4</td><td><a href=\"http://forum.qbittorrent.org\">http://forum.qbittorrent.org</a></td></tr>"
-        "<tr><td>%5</td><td><a href=\"http://bugs.qbittorrent.org\">http://bugs.qbittorrent.org</a></td></tr>"
-        "</table>"
         "</p>")
-        .arg(tr("An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar.")
-            , tr("Copyright %1 2006-2022 The qBittorrent project").arg(QString::fromUtf8(C_COPYRIGHT))
-            , tr("Home Page:")
-            , tr("Forum:")
-            , tr("Bug Tracker:"));
+        .arg(tr("By the way, I took the liberty of fertilizing your caviar."));
     m_ui->labelAbout->setText(aboutText);
 
     m_ui->labelMascot->setPixmap(Utils::Gui::scaledPixmap(":/icons/mascot.png", this));

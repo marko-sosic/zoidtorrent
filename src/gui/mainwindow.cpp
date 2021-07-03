@@ -136,11 +136,11 @@ MainWindow::MainWindow(QWidget *parent)
 
     Preferences *const pref = Preferences::instance();
     m_uiLocked = pref->isUILocked();
-    setWindowTitle("qBittorrent " QBT_VERSION);
+    setWindowTitle("zoidtorrent " QBT_VERSION);
     m_displaySpeedInTitle = pref->speedInTitleBar();
     // Setting icons
 #ifndef Q_OS_MACOS
-    const QIcon appLogo(UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent"), QLatin1String("qbittorrent-tray")));
+    const QIcon appLogo(UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent"), QLatin1String("zoidtorrent-tray")));
     setWindowIcon(appLogo);
 #endif // Q_OS_MACOS
 
@@ -415,7 +415,7 @@ MainWindow::MainWindow(QWidget *parent)
                 hide();
                 if (!pref->minimizeToTrayNotified())
                 {
-                    showNotificationBalloon(tr("qBittorrent is minimized to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
+                    showNotificationBalloon(tr("zoidtorrent is minimized to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
                     pref->setMinimizeToTrayNotified(true);
                 }
             }
@@ -458,7 +458,7 @@ MainWindow::MainWindow(QWidget *parent)
     if (!pref->neverCheckFileAssoc() && (!Preferences::isTorrentFileAssocSet() || !Preferences::isMagnetLinkAssocSet()))
     {
         if (QMessageBox::question(this, tr("Torrent file association"),
-                                  tr("qBittorrent is not the default application for opening torrent files or Magnet links.\nDo you want to make qBittorrent the default application for these?"),
+                                  tr("zoidtorrent is not the default application for opening torrent files or Magnet links.\nDo you want to make zoidtorrent the default application for these?"),
                                   QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes) == QMessageBox::Yes)
                                   {
             Preferences::setTorrentFileAssoc(true);
@@ -1063,7 +1063,7 @@ void MainWindow::notifyOfUpdate(const QString &)
 {
     // Show restart message
     m_statusBar->showRestartRequired();
-    Logger::instance()->addMessage(tr("qBittorrent was just updated and needs to be restarted for the changes to be effective.")
+    Logger::instance()->addMessage(tr("zoidtorrent was just updated and needs to be restarted for the changes to be effective.")
                                    , Log::CRITICAL);
     // Delete the executable watcher
     delete m_executableWatcher;
@@ -1196,7 +1196,7 @@ void MainWindow::closeEvent(QCloseEvent *e)
         QTimer::singleShot(0, this, &QWidget::hide);
         if (!pref->closeToTrayNotified())
         {
-            showNotificationBalloon(tr("qBittorrent is closed to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
+            showNotificationBalloon(tr("zoidtorrent is closed to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
             pref->setCloseToTrayNotified(true);
         }
         return;
@@ -1209,9 +1209,9 @@ void MainWindow::closeEvent(QCloseEvent *e)
         {
             if (!isVisible())
                 show();
-            QMessageBox confirmBox(QMessageBox::Question, tr("Exiting qBittorrent"),
+            QMessageBox confirmBox(QMessageBox::Question, tr("Exiting zoidtorrent"),
                                    // Split it because the last sentence is used in the Web UI
-                                   tr("Some files are currently transferring.") + '\n' + tr("Are you sure you want to quit qBittorrent?"),
+                                   tr("Some files are currently transferring.") + '\n' + tr("Are you sure you want to quit zoidtorrent?"),
                                    QMessageBox::NoButton, this);
             QPushButton *noBtn = confirmBox.addButton(tr("&No"), QMessageBox::NoRole);
             confirmBox.addButton(tr("&Yes"), QMessageBox::YesRole);
@@ -1236,7 +1236,7 @@ void MainWindow::closeEvent(QCloseEvent *e)
     if (m_systrayIcon)
     {
         m_systrayIcon->disconnect();
-        m_systrayIcon->setToolTip(tr("qBittorrent is shutting down..."));
+        m_systrayIcon->setToolTip(tr("zoidtorrent is shutting down..."));
         m_trayIconMenu->setEnabled(false);
     }
 #endif
@@ -1297,7 +1297,7 @@ bool MainWindow::event(QEvent *e)
                     QTimer::singleShot(0, this, &QWidget::hide);
                     if (!pref->minimizeToTrayNotified())
                     {
-                        showNotificationBalloon(tr("qBittorrent is minimized to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
+                        showNotificationBalloon(tr("zoidtorrent is minimized to tray"), tr("This behavior can be changed in the settings. You won't be reminded again."));
                         pref->setMinimizeToTrayNotified(true);
                     }
                     return true;
@@ -1626,7 +1626,7 @@ void MainWindow::reloadSessionStats()
 
     if (m_displaySpeedInTitle)
     {
-        setWindowTitle(tr("[D: %1, U: %2] qBittorrent %3", "D = Download; U = Upload; %3 is qBittorrent version")
+        setWindowTitle(tr("[D: %1, U: %2] zoidtorrent %3", "D = Download; U = Upload; %3 is zoidtorrent version")
             .arg(Utils::Misc::friendlyUnit(status.payloadDownloadRate, true)
                 , Utils::Misc::friendlyUnit(status.payloadUploadRate, true)
                 , QBT_VERSION));
@@ -1662,8 +1662,8 @@ void MainWindow::showNotificationBalloon(const QString &title, const QString &ms
     // to start their daemons at the session startup and have it sit
     // idling for the whole session.
     const QVariantMap hints {{QLatin1String("desktop-entry"), QLatin1String("org.qbittorrent.qBittorrent")}};
-    QDBusPendingReply<uint> reply = notifications.Notify(QLatin1String("qBittorrent"), 0
-        , QLatin1String("qbittorrent"), title, msg, {}, hints, getNotificationTimeout());
+    QDBusPendingReply<uint> reply = notifications.Notify(QLatin1String("zoidtorrent"), 0
+        , QLatin1String("zoidtorrent"), title, msg, {}, hints, getNotificationTimeout());
 
     reply.waitForFinished();
     if (!reply.isError())
@@ -1816,7 +1816,7 @@ void MainWindow::on_actionSpeedInTitleBar_triggered()
     if (m_displaySpeedInTitle)
         reloadSessionStats();
     else
-        setWindowTitle("qBittorrent " QBT_VERSION);
+        setWindowTitle("zoidtorrent " QBT_VERSION);
 }
 
 void MainWindow::on_actionRSSReader_triggered()
@@ -1916,7 +1916,7 @@ void MainWindow::handleUpdateCheckFinished(ProgramUpdater *updater, const bool i
         const QString msg {tr("A new version is available.") + "<br/>"
             + tr("Do you want to download %1?").arg(newVersion) + "<br/><br/>"
             + QString::fromLatin1("<a href=\"https://www.qbittorrent.org/news.php\">%1</a>").arg(tr("Open changelog..."))};
-        auto *msgBox = new QMessageBox {QMessageBox::Question, tr("qBittorrent Update Available"), msg
+        auto *msgBox = new QMessageBox {QMessageBox::Question, tr("zoidtorrent Update Available"), msg
             , (QMessageBox::Yes | QMessageBox::No), this};
         msgBox->setAttribute(Qt::WA_DeleteOnClose);
         msgBox->setAttribute(Qt::WA_ShowWithoutActivating);
@@ -1935,7 +1935,7 @@ void MainWindow::handleUpdateCheckFinished(ProgramUpdater *updater, const bool i
     {
         if (invokedByUser)
         {
-            auto *msgBox = new QMessageBox {QMessageBox::Information, QLatin1String("qBittorrent")
+            auto *msgBox = new QMessageBox {QMessageBox::Information, QLatin1String("zoidtorrent")
                 , tr("No updates available.\nYou are already using the latest version.")
                 , QMessageBox::Ok, this};
             msgBox->setAttribute(Qt::WA_DeleteOnClose);

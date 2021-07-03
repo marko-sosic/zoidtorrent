@@ -389,7 +389,7 @@ void PluginSelectDialog::askForLocalPlugin()
 {
     const QStringList pathsList = QFileDialog::getOpenFileNames(
                 nullptr, tr("Select search plugins"), QDir::homePath(),
-                tr("qBittorrent search plugin") + QLatin1String(" (*.py)")
+                tr("zoidtorrent search plugin") + QLatin1String(" (*.py)")
                 );
     for (const QString &path : pathsList)
     {

@@ -51,8 +51,8 @@ namespace BitTorrent
         Path savePath;
         std::optional<bool> useDownloadPath;
         Path downloadPath;
-        bool sequential = false;
-        bool firstLastPiecePriority = false;
+        bool sequential = true;
+        bool firstLastPiecePriority = true;
         bool addForced = false;
         std::optional<bool> addPaused;
         PathList filePaths; // used if TorrentInfo is set

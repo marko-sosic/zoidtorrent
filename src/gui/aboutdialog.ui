@@ -12,7 +12,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About qBittorrent</string>
+   <string>About zoidtorrent</string>
   </property>
   <layout class="QVBoxLayout" name="aboutDlgLayout">
    <item>
@@ -325,7 +325,7 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>qBittorrent was built with the following libraries:</string>
+          <string>zoidtorrent was built with the following libraries:</string>
          </property>
         </widget>
        </item>

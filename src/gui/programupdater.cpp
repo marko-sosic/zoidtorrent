@@ -92,12 +92,12 @@ void ProgramUpdater::rssDownloadFinished(const Net::DownloadResult &result)
 {
     if (result.status != Net::DownloadStatus::Success)
     {
-        qDebug() << "Downloading the new qBittorrent updates RSS failed:" << result.errorString;
+        qDebug() << "Downloading the new zoidtorrent updates RSS failed:" << result.errorString;
         emit updateCheckFinished();
         return;
     }
 
-    qDebug("Finished downloading the new qBittorrent updates RSS");
+    qDebug("Finished downloading the new zoidtorrent updates RSS");
 
     const auto getStringValue = [](QXmlStreamReader &xml) -> QString
     {

@@ -50,3 +50,30 @@ You can also meet me (sledgehammer_999) on IRC:
 
 ------------------------------------------
 sledgehammer999 <sledgehammer999@qbittorrent.org>
+
+
+### Build Notes:
+
+Run 'x64 Native Tools Command Prompt for VS 2019'<br />
+
+Upgrade vcpkg:<br />
+cd D:\Repos\vcpkg<br />
+git pull<br />
+.\bootstrap-vcpkg.bat -disableMetrics<br />
+.\vcpkg integrate install<br />
+
+Upgrade vcpkg packages (VERY LONG OPERATION):<br />
+cd D:\Repos\vcpkg<br />
+vcpkg upgrade --no-dry-run<br />
+
+Build:<br />
+cd D:\repos\zoidtorrent<br />
+cmake -G "Ninja" -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="D:/Repos/vcpkg/scripts/buildsystems/vcpkg.cmake" -DVCPKG_TARGET_TRIPLET="x64-windows-static" -DMSVC_RUNTIME_DYNAMIC=OFF<br />
+
+cmake --build build<br />
+
+### Icons:
+https://derivv.com/<br />
+
+https://imagemagick.org/script/download.php<br />
+D:\repos\zoidtorrent\src\icons\zoidberg\main> magick convert 16.png 20.png 24.png 28.png 30.png 31.png 32.png 40.png 42.png 47.png 48.png 56.png 60.png 63.png 64.png 72.png 84.png 96.png 128.png 180.png 255.png 256.png -colors 256 -transparent white zicon.ico<br />

@@ -153,7 +153,7 @@ namespace
 SettingsStorage *SettingsStorage::m_instance = nullptr;
 
 SettingsStorage::SettingsStorage()
-    : m_data {TransactionalSettings(QLatin1String("qBittorrent")).read()}
+    : m_data {TransactionalSettings(QLatin1String("zoidtorrent")).read()}
 {
     m_timer.setSingleShot(true);
     m_timer.setInterval(5 * 1000);
@@ -187,7 +187,7 @@ bool SettingsStorage::save()
     const QWriteLocker locker(&m_lock);  // guard for `m_dirty` too
     if (!m_dirty) return true;
 
-    const TransactionalSettings settings(QLatin1String("qBittorrent"));
+    const TransactionalSettings settings(QLatin1String("zoidtorrent"));
     if (!settings.write(m_data))
     {
         m_timer.start();

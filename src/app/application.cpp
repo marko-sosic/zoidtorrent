@@ -137,7 +137,7 @@ Application::Application(int &argc, char **argv)
     qRegisterMetaType<Log::Msg>("Log::Msg");
     qRegisterMetaType<Log::Peer>("Log::Peer");
 
-    setApplicationName("qBittorrent");
+    setApplicationName("zoidtorrent");
     setOrganizationDomain("qbittorrent.org");
 #if !defined(DISABLE_GUI)
     setDesktopFileName("org.qbittorrent.qBittorrent");
@@ -157,7 +157,7 @@ Application::Application(int &argc, char **argv)
 #else
     const QString instanceId = profileDir + (m_commandLineArgs.configurationName.isEmpty() ? QString {} : ('/' + m_commandLineArgs.configurationName));
 #endif
-    const QString appId = QLatin1String("qBittorrent-") + Utils::Misc::getUserIDString() + '@' + instanceId;
+    const QString appId = QLatin1String("zoidtorrent-") + Utils::Misc::getUserIDString() + '@' + instanceId;
     m_instanceManager = new ApplicationInstanceManager {appId, this};
 
     Profile::initInstance(profileDir, m_commandLineArgs.configurationName,

@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Irten qBittorrent-etik</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Irten zoidtorrent-etik</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Gehienezko igoera aho zenbatekoa torrent bakoitzeko muga 0 baino handiagoa edo ezgaituta izan behar da.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Ezinezkoa programa hobespenak gordetzea, qBittorrent zihurrenik erdietsiezina da.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Ezinezkoa programa hobespenak gordetzea, zoidtorrent zihurrenik erdietsiezina da.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent Freenode-an</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent Freenode-an</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Web EI-ak erabiltzeko ataka 1024 eta 65535 artekoa izan behar da.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Ezinezkoa saioa hastea, qBittorrent zihurrenik eskuraezina dago.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Ezinezkoa saioa hastea, zoidtorrent zihurrenik eskuraezina dago.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Gorde</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent bezeroa erdietsiezina da</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent bezeroa erdietsiezina da</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Igoera neurri muga 0 baino handiagoa izan behar da.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent itzali egin da</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent itzali egin da</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Jeisketa Abiadura Muga Orokorra</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Zihur zaude qBittorrent uztea nahi duzula?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Zihur zaude zoidtorrent uztea nahi duzula?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[J: %1, I: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[J: %1, I: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2580,8 +2580,8 @@
         <translation>Ezabatu agiriak diska gogorrean ere</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Ezabapen baieztapena - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Ezabapen baieztapena - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2977,7 +2977,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2989,7 +2989,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

@@ -3,18 +3,18 @@ contact_links:
   -
     about: "Consult the wiki first (especially the FAQ), it might already contain the information you are looking for"
     name: Wiki
-    url: "https://github.com/qbittorrent/qBittorrent/wiki/"
+    url: "https://github.com/zoidtorrent/zoidtorrent/wiki/"
 
   -
     about: "Please ask questions related to usage/setup/support/non-issue development discussion in the Discussions section"
     name: Question
-    url: "https://github.com/qbittorrent/qBittorrent/discussions"
+    url: "https://github.com/zoidtorrent/zoidtorrent/discussions"
 
   -
     about: "Alternatively, ask on the official forum"
     name: Question
-    url: "http://forum.qbittorrent.org/"
+    url: "http://forum.zoidtorrent.org/"
   -
     about: "Alternatively, use the subreddit"
     name: Question
-    url: "https://www.reddit.com/r/qBittorrent/"
+    url: "https://www.reddit.com/r/zoidtorrent/"

@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Închide qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Închide zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Numărul maxim de sloturi de încărcare pe torrent trebuie să fie mai mare ca 0 sau dezactivat.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Nu se pot salva preferințele programului, probabil qBittorrent nu poate fi contactat.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Nu se pot salva preferințele programului, probabil zoidtorrent nu poate fi contactat.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent pe Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent pe Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Portul folosit pentru interfața Web trebuie să fie între 1 și 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Nu se poate autentifica, probabil qBittorrent nu poate fi contactat.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Nu se poate autentifica, probabil zoidtorrent nu poate fi contactat.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Salvează</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Clientul qBittorrent nu poate fi contactat</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Clientul zoidtorrent nu poate fi contactat</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,7 +332,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
+        <source>zoidtorrent has been shutdown</source>
         <translation>qBittorent a fost oprit</translation>
     </message>
     <message>
@@ -467,13 +467,13 @@
         <translation>Limită viteză de descărare globală</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Sigur doriți să închideți qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Sigur doriți să închideți zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[D: %1/s, Î: %2/s] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[D: %1/s, Î: %2/s] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2580,7 +2580,7 @@
         <translation>Șterge și fișierele de pe disc</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
+        <source>Deletion confirmation - zoidtorrent</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -2977,7 +2977,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2989,7 +2989,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

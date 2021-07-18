@@ -15,7 +15,7 @@ QT_LANG_PATH = ../dist/qt-translations
 DIST_PATH = ../dist/mac
 
 document_icon.path = Contents/Resources
-document_icon.files = $$DIST_PATH/qBitTorrentDocument.icns
+document_icon.files = $$DIST_PATH/zoidtorrentDocument.icns
 QMAKE_BUNDLE_DATA += document_icon
 
 qt_conf.path = Contents/Resources
@@ -34,5 +34,5 @@ qt_translations.files += \
     $$QT_LANG_PATH/qt_zh_CN.qm
 QMAKE_BUNDLE_DATA += qt_translations
 
-ICON = $$DIST_PATH/qbittorrent_mac.icns
+ICON = $$DIST_PATH/zoidtorrent_mac.icns
 QMAKE_INFO_PLIST = $$DIST_PATH/Info.plist

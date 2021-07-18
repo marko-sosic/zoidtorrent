@@ -1,14 +1,14 @@
 # Adapt these paths
 # Point these to the include folders
-INCLUDEPATH += $$quote(C:/qBittorrent/boost)
-INCLUDEPATH += $$quote(C:/qBittorrent/libtorrent/include)
-INCLUDEPATH += $$quote(C:/qBittorrent/zlib/include)
-INCLUDEPATH += $$quote(C:/qBittorrent/openssl/include)
+INCLUDEPATH += $$quote(C:/zoidtorrent/boost)
+INCLUDEPATH += $$quote(C:/zoidtorrent/libtorrent/include)
+INCLUDEPATH += $$quote(C:/zoidtorrent/zlib/include)
+INCLUDEPATH += $$quote(C:/zoidtorrent/openssl/include)
 # Point these to the lib folders
-LIBS += $$quote(-LC:/qBittorrent/boost/stage/lib)
-LIBS += $$quote(-LC:/qBittorrent/libtorrent/lib)
-LIBS += $$quote(-LC:/qBittorrent/zlib/lib)
-LIBS += $$quote(-LC:/qBittorrent/openssl/lib)
+LIBS += $$quote(-LC:/zoidtorrent/boost/stage/lib)
+LIBS += $$quote(-LC:/zoidtorrent/libtorrent/lib)
+LIBS += $$quote(-LC:/zoidtorrent/zlib/lib)
+LIBS += $$quote(-LC:/zoidtorrent/openssl/lib)
 
 # Adapt the lib names/versions accordingly
 # If you want to use Boost auto-linking then disable

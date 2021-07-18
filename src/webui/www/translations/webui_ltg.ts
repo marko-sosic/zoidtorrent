@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Aiztaiseit qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Aiztaiseit zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Kūpejam nūsasyuteišonas slotu skaitam uz vīnu torrentu juoir leluokam par 0 voi nikaidam.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Nāisadevās saglabuot īstatejumus, varams, ka qBittorrent navā dasnēdzuoms.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Nāisadevās saglabuot īstatejumus, varams, ka zoidtorrent navā dasnēdzuoms.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent iz Freenode servera</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent iz Freenode servera</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Portam priekš Tuolvaļdis panela (Web UI) juoir nu 1 da 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Dasaslēgšuonās naīsadevās, varams, ka qBittorrent navā dasnēdzuoms.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Dasaslēgšuonās naīsadevās, varams, ka zoidtorrent navā dasnēdzuoms.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Izglobuot</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent navā dasnēdzuoms</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent navā dasnēdzuoms</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent tika nūgrīzts</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent tika nūgrīzts</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Kūpeigā atsasyuteišonas dreizuma rūbežs</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Voi drūši zini, ka gribi nūgrīzt qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Voi drūši zini, ka gribi nūgrīzt zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[A: %1, N: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[A: %1, N: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation>Nūjimt torrentu i failus</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation>qBittorent izdola</translation>
     </message>
     <message>
@@ -2584,8 +2584,8 @@
         <translation>Iztreit failus i iz cītdiska</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Apstyprynuot iztreišonu - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Apstyprynuot iztreišonu - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Vuords:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Par qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Par zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Puorvārsuoji</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent tika sastateits lītojūt ituos bibliotekas</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent tika sastateits lītojūt ituos bibliotekas</translation>
     </message>
     <message>
         <source>Nationality:</source>

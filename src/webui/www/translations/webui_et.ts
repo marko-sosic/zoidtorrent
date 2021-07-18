@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Sule qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Sule zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,11 +140,11 @@
         <translation>Maksimum hulk üleslaadimiste kohti ühele torrenti limiidile peab olema enam kui 0 või väljalülitatud.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
         <translation>Ei saa salvestada programmis eelistusi, qBitorrent arvatavasti pole kättesaadav. </translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
+        <source>IRC: #zoidtorrent on Freenode</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>Port peab Web UI kasutuseks olema vahemikus 1 kuni 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
         <translation>Ei saa sisse logida, qBitorrent arvatavasti pole kättesaadav. </translation>
     </message>
     <message>
@@ -292,8 +292,8 @@
         <translation>Salvesta</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrenti klient ei ole kättesaadav</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrenti klient ei ole kättesaadav</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent on välja lülitatud</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent on välja lülitatud</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Üleüldine Allalaadimise Kiiruse Limiit</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Oled kindel, et soovid täielikult sulgeda qBittorrenti?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Oled kindel, et soovid täielikult sulgeda zoidtorrenti?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[A: %1, Ü: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[A: %1, Ü: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation>Eemalda torrent ja selle failid</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2584,8 +2584,8 @@
         <translation>Samuti kustuta failid kõvakettalt</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Kustutamise kinnitamine - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Kustutamise kinnitamine - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Nimi:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>qBittorrenti info</translation>
+        <source>About zoidtorrent</source>
+        <translation>zoidtorrenti info</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Tõlkijad</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent ehitati järgnevate teekidega:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent ehitati järgnevate teekidega:</translation>
     </message>
     <message>
         <source>Nationality:</source>

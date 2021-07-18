@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2009  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2009  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -28,11 +28,11 @@
 
 'use strict';
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.PropTrackers = (function() {
+window.zoidtorrent.PropTrackers = (function() {
     const exports = function() {
         return {
             updateData: updateData
@@ -41,7 +41,7 @@ window.qBittorrent.PropTrackers = (function() {
 
     let current_hash = "";
 
-    const torrentTrackersTable = new window.qBittorrent.DynamicTable.TorrentTrackersTable();
+    const torrentTrackersTable = new window.zoidtorrent.DynamicTable.TorrentTrackersTable();
     let loadTrackersDataTimer;
 
     const loadTrackersData = function() {
@@ -125,7 +125,7 @@ window.qBittorrent.PropTrackers = (function() {
         loadTrackersData();
     };
 
-    const torrentTrackersContextMenu = new window.qBittorrent.ContextMenu.ContextMenu({
+    const torrentTrackersContextMenu = new window.zoidtorrent.ContextMenu.ContextMenu({
         targets: '#torrentTrackersTableDiv',
         menu: 'torrentTrackersMenu',
         actions: {
@@ -236,4 +236,4 @@ window.qBittorrent.PropTrackers = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.PropTrackers);
+Object.freeze(window.zoidtorrent.PropTrackers);

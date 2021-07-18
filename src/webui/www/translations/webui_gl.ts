@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Saír do qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Saír do zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>O límite do número máximo de slots de envío por torrent ten que ser superior a 0 ou debe desactivalo.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Non foi posíbel gardar as preferencias do programa, probabelmente o qBittorrent estea inaccesíbel.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Non foi posíbel gardar as preferencias do programa, probabelmente o zoidtorrent estea inaccesíbel.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent en Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent en Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>O porto usado para a interface web debe estar entre 1 e 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Non é posíbel iniciar sesión. Probabelmente o qBittorrent non está accesíbel.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Non é posíbel iniciar sesión. Probabelmente o zoidtorrent non está accesíbel.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Gardar</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>O cliente qBittorrent non está accesíbel</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>O cliente zoidtorrent non está accesíbel</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -333,8 +333,8 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation>O límite da velocidade de descarga ten que ser superior a 0.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>O qBittorrent foi pechado.</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>O zoidtorrent foi pechado.</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -468,13 +468,13 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation>Límite global de velocidade de descarga</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Confirma que desexa saír do qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Confirma que desexa saír do zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[D: %1, E: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[D: %1, E: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1178,7 +1178,7 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2581,8 +2581,8 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation>Eliminar tamén os ficheiros do disco duro</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Confirmación de eliminación - 'qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Confirmación de eliminación - 'zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2978,7 +2978,7 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2990,7 +2990,7 @@ Non use caracteres especiais no nome da categoría.</translation>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

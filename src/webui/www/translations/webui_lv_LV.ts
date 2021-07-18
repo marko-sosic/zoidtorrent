@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Aizvērt qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Aizvērt zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Atļautajam augšupielādes slotu skaitam uz katru torrentu jābūt lielākam par 0 vai arī atslēgtam.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Neizdevās saglabāt programmas iestatījumus, qBittorrent droši vien nav sasniedzams.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Neizdevās saglabāt programmas iestatījumus, zoidtorrent droši vien nav sasniedzams.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent uz Freenode servera</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent uz Freenode servera</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Tālvadības kontroles paneļa portam ir jābūt starp 1 un 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Neizdevās pierakstīties, qBittorrent droši vien nav sasniedzams.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Neizdevās pierakstīties, zoidtorrent droši vien nav sasniedzams.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Saglabāt</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent klients nav sasniedzams</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent klients nav sasniedzams</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Lejupielādes ātruma slieksnim ir jābūt lielākam par 0</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent klients ir izslēgts.</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent klients ir izslēgts.</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Atļautais kopējais lejupielādes ātrums</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Vai esat pārliecināts, ka vēlaties aizvērt qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Vai esat pārliecināts, ka vēlaties aizvērt zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[L: %1, A: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[L: %1, A: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -724,7 +724,7 @@
     </message>
     <message>
         <source>Use different port on each startup</source>
-        <translation>Automātiski izvēlēties un nomainīt portu pie qBittorrent ieslēgšanas</translation>
+        <translation>Automātiski izvēlēties un nomainīt portu pie zoidtorrent ieslēgšanas</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Izdzēst torrentu un failus</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent sadaļa</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent sadaļa</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Izdzēst failus arī uz cietā diska</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Dzēšanas apstiprināšana - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Dzēšanas apstiprināšana - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Vārds:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Par qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Par zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Tulkotāji</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>Šī qBittorrent versija tika uzbūvēta, izmantojot šīs bibliotēkas:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>Šī zoidtorrent versija tika uzbūvēta, izmantojot šīs bibliotēkas:</translation>
     </message>
     <message>
         <source>Nationality:</source>

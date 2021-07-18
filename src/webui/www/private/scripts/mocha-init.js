@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2008  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2008  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -38,7 +38,7 @@
    ----------------------------------------------------------------- */
 'use strict';
 
-const LocalPreferences = new window.qBittorrent.LocalPreferences.LocalPreferencesClass();
+const LocalPreferences = new window.zoidtorrent.LocalPreferences.LocalPreferencesClass();
 
 let saveWindowSize = function() {};
 let loadWindowWidth = function() {};
@@ -1017,7 +1017,7 @@ const initializeWindows = function() {
         const id = 'aboutpage';
         new MochaUI.Window({
             id: id,
-            title: 'QBT_TR(About qBittorrent)QBT_TR[CONTEXT=AboutDialog]',
+            title: 'QBT_TR(About zoidtorrent)QBT_TR[CONTEXT=AboutDialog]',
             loadMethod: 'xhr',
             contentURL: 'views/about.html',
             require: {
@@ -1047,11 +1047,11 @@ const initializeWindows = function() {
 
     addClickEvent('shutdown', function(e) {
         new Event(e).stop();
-        if (confirm('QBT_TR(Are you sure you want to quit qBittorrent?)QBT_TR[CONTEXT=MainWindow]')) {
+        if (confirm('QBT_TR(Are you sure you want to quit zoidtorrent?)QBT_TR[CONTEXT=MainWindow]')) {
             new Request({
                 url: 'api/v2/app/shutdown',
                 onSuccess: function() {
-                    document.write('<!doctype html><html lang="${LANG}"><head> <meta charset="UTF-8"> <title>QBT_TR(qBittorrent has been shutdown)QBT_TR[CONTEXT=HttpServer]</title></head><body> <h1 style="text-align: center;">QBT_TR(qBittorrent has been shutdown)QBT_TR[CONTEXT=HttpServer]</h1></body></html>');
+                    document.write('<!doctype html><html lang="${LANG}"><head> <meta charset="UTF-8"> <title>QBT_TR(zoidtorrent has been shutdown)QBT_TR[CONTEXT=HttpServer]</title></head><body> <h1 style="text-align: center;">QBT_TR(zoidtorrent has been shutdown)QBT_TR[CONTEXT=HttpServer]</h1></body></html>');
                     document.close();
                     stop();
                 }

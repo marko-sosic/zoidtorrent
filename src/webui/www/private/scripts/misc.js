@@ -28,11 +28,11 @@
 
 'use strict';
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.Misc = (function() {
+window.zoidtorrent.Misc = (function() {
     const exports = function() {
         return {
             friendlyUnit: friendlyUnit,
@@ -216,4 +216,4 @@ window.qBittorrent.Misc = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.Misc);
+Object.freeze(window.zoidtorrent.Misc);

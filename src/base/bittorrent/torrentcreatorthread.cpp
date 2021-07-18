@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2010  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2010  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -191,9 +191,9 @@ void TorrentCreatorThread::run()
             sendProgressSignal(static_cast<LTUnderlyingType<lt::piece_index_t>>(n), newTorrent.num_pieces());
         });
 
-        // Set qBittorrent as creator and add user comment to
+        // Set zoidtorrent as creator and add user comment to
         // torrent_info structure
-        newTorrent.set_creator("qBittorrent " QBT_VERSION);
+        newTorrent.set_creator("zoidtorrent " QBT_VERSION);
         newTorrent.set_comment(m_params.comment.toUtf8().constData());
         // Is private ?
         newTorrent.set_priv(m_params.isPrivate);

@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Ukončit qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Ukončit zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Limit maximálního počtu slotů na torrent musí být větší než 0 nebo vypnut.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Nelze uložit nastavení programu, qBittorrent klient je pravděpodobně nedostupný.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Nelze uložit nastavení programu, zoidtorrent klient je pravděpodobně nedostupný.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent na Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent na Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Port webového rozhraní musí být mezi 1 a 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Nelze se přihlásit, qBittorrent je pravděpodobně nedostupný</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Nelze se přihlásit, zoidtorrent je pravděpodobně nedostupný</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Uložit</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Klient qBittorrent není dostupný</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Klient zoidtorrent není dostupný</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Limit rychlosti stahování musí být větší než 0.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent byl ukončen</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent byl ukončen</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Celkový limit rychlosti stahování</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Určitě chcete ukončit qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Určitě chcete ukončit zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[S: %1, O: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[S: %1, O: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Odstranit torrent a jeho soubory</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>Sekce qBittorrentu</translation>
+        <source>zoidtorrent Section</source>
+        <translation>Sekce zoidtorrentu</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Smazat soubory také z pevného disku</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Potvrzení o smazání - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Potvrzení o smazání - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Jméno:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>O qBittorrentu</translation>
+        <source>About zoidtorrent</source>
+        <translation>O zoidtorrentu</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Překladatelé</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent byl vytvořen s následujícími knihovnami:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent byl vytvořen s následujícími knihovnami:</translation>
     </message>
     <message>
         <source>Nationality:</source>

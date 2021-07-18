@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Keluar qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Keluar zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Bilangan slot muat naik per had torrent maksimum mesti lebih besar dari 0 atau dilumpuhkan.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Tidak boleh simpan keutamaan program, qBittorrent berkemungkinan tidak boleh dicapai.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Tidak boleh simpan keutamaan program, zoidtorrent berkemungkinan tidak boleh dicapai.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent di Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent di Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Port yang digunakan untuk UI Sesawang mestilah diantara 1 hingga 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Tidak boleh daftar masuk, qBittorrent berkemungkinan tidak boleh dicapai.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Tidak boleh daftar masuk, zoidtorrent berkemungkinan tidak boleh dicapai.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Simpan</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Klien qBittorrent tidak dapat dicapai</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Klien zoidtorrent tidak dapat dicapai</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Ambang kadar muat turun mesti lebih besar dari 0</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent telah dimatikan</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent telah dimatikan</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Had Kelajuan Muat Turun Sejagat</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Anda pasti mahu keluar dari qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Anda pasti mahu keluar dari zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[T: %1, N: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[T: %1, N: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation>Buang torrent dan fail-failnya</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation>Seskyen qBittorent</translation>
     </message>
     <message>
@@ -2584,8 +2584,8 @@
         <translation>Juga padam fail pada cakera keras</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Pengesahan pemadaman - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Pengesahan pemadaman - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Nama:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Perihal qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Perihal zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Penterjemah</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent telah dibina dengan pustaka berikut:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent telah dibina dengan pustaka berikut:</translation>
     </message>
     <message>
         <source>Nationality:</source>

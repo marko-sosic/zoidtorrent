@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2006  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2006  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -748,7 +748,7 @@ void PropertiesWidget::askWebSeed()
     qDebug("Adding %s web seed", qUtf8Printable(urlSeed));
     if (!m_ui->listWebSeeds->findItems(urlSeed, Qt::MatchFixedString).empty())
     {
-        QMessageBox::warning(this, "qBittorrent",
+        QMessageBox::warning(this, "zoidtorrent",
                              tr("This URL seed is already in the list."),
                              QMessageBox::Ok);
         return;
@@ -802,7 +802,7 @@ void PropertiesWidget::editWebSeed()
 
     if (!m_ui->listWebSeeds->findItems(newSeed, Qt::MatchFixedString).empty())
     {
-        QMessageBox::warning(this, QLatin1String("qBittorrent"),
+        QMessageBox::warning(this, QLatin1String("zoidtorrent"),
                              tr("This URL seed is already in the list."),
                              QMessageBox::Ok);
         return;

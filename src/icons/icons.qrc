@@ -327,12 +327,12 @@
         <file>preferences-other.svg</file>
         <file>preferences-system-network.svg</file>
         <file>preferences-web-browser-cookies.svg</file>
-        <file>qbittorrent-tray-dark.svg</file>
-        <file>qbittorrent-tray-light.svg</file>
-        <file>qbittorrent-tray-with-font.svg</file>
-        <file>qbittorrent-tray.svg</file>
-        <file>qbittorrent.ico</file>
-        <file>qbittorrent_file.ico</file>
+        <file>zoidtorrent-tray-dark.svg</file>
+        <file>zoidtorrent-tray-light.svg</file>
+        <file>zoidtorrent-tray-with-font.svg</file>
+        <file>zoidtorrent-tray.svg</file>
+        <file>zoidtorrent.ico</file>
+        <file>zoidtorrent_file.ico</file>
         <file>queued.svg</file>
         <file>ratio.svg</file>
         <file>resumed.svg</file>

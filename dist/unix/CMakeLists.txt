@@ -11,17 +11,17 @@ if (SYSTEMD)
         endif()
     endif()
     set(EXPAND_BINDIR ${CMAKE_INSTALL_FULL_BINDIR})
-    configure_file(systemd/qbittorrent-nox@.service.in ${CMAKE_CURRENT_BINARY_DIR}/qbittorrent-nox@.service @ONLY)
-    install(FILES "${CMAKE_CURRENT_BINARY_DIR}/qbittorrent-nox@.service"
+    configure_file(systemd/zoidtorrent-nox@.service.in ${CMAKE_CURRENT_BINARY_DIR}/zoidtorrent-nox@.service @ONLY)
+    install(FILES "${CMAKE_CURRENT_BINARY_DIR}/zoidtorrent-nox@.service"
         DESTINATION ${SYSTEMD_SERVICES_INSTALL_DIR}
         COMPONENT data
     )
 endif()
 
 if (GUI)
-    list(APPEND MAN_FILES ${PROJECT_SOURCE_DIR}/doc/qbittorrent.1)
+    list(APPEND MAN_FILES ${PROJECT_SOURCE_DIR}/doc/zoidtorrent.1)
 else()
-    list(APPEND MAN_FILES ${PROJECT_SOURCE_DIR}/doc/qbittorrent-nox.1)
+    list(APPEND MAN_FILES ${PROJECT_SOURCE_DIR}/doc/zoidtorrent-nox.1)
 endif()
 
 install(FILES ${MAN_FILES}
@@ -30,12 +30,12 @@ install(FILES ${MAN_FILES}
 )
 
 if (GUI)
-    install(FILES org.qbittorrent.qBittorrent.desktop
+    install(FILES org.zoidtorrent.zoidtorrent.desktop
         DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/applications/
         COMPONENT data
     )
 
-    install(FILES org.qbittorrent.qBittorrent.appdata.xml
+    install(FILES org.zoidtorrent.zoidtorrent.appdata.xml
         DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/metainfo/
         COMPONENT data
     )
@@ -46,9 +46,9 @@ if (GUI)
     )
 
     install(FILES
-        ${PROJECT_SOURCE_DIR}/src/icons/qbittorrent-tray.svg
-        ${PROJECT_SOURCE_DIR}/src/icons/qbittorrent-tray-dark.svg
-        ${PROJECT_SOURCE_DIR}/src/icons/qbittorrent-tray-light.svg
+        ${PROJECT_SOURCE_DIR}/src/icons/zoidtorrent-tray.svg
+        ${PROJECT_SOURCE_DIR}/src/icons/zoidtorrent-tray-dark.svg
+        ${PROJECT_SOURCE_DIR}/src/icons/zoidtorrent-tray-light.svg
         DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/icons/hicolor/scalable/status
         COMPONENT data
     )

@@ -2,7 +2,7 @@ Var uninstallerPath
 
 Section "-hidden"
 
-    ;Search if qBittorrent is already installed.
+    ;Search if zoidtorrent is already installed.
     FindFirst $0 $1 "$uninstallerPath\uninst.exe"
     FindClose $0
     StrCmp $1 "" done
@@ -18,7 +18,7 @@ Section "-hidden"
 SectionEnd
 
 
-Section $(inst_qbt_req) ;"qBittorrent (required)"
+Section $(inst_qbt_req) ;"zoidtorrent (required)"
 
   SectionIn RO
 
@@ -29,8 +29,8 @@ Section $(inst_qbt_req) ;"qBittorrent (required)"
   CreateDirectory $INSTDIR\translations
 
   ; Put file there
-  File "qbittorrent.exe"
-  File "qbittorrent.pdb"
+  File "zoidtorrent.exe"
+  File "zoidtorrent.pdb"
   File "qt.conf"
   File /r "qtbase_*.qm"  ; omit translations folder path to preserve folder structure
   File /oname=translations\qt_fa.qm "translations\qt_fa.qm"
@@ -42,47 +42,47 @@ Section $(inst_qbt_req) ;"qBittorrent (required)"
   File /oname=translations\qt_zh_CN.qm "translations\qt_zh_CN.qm"
 
   ; Write the installation path into the registry
-  WriteRegStr HKLM "Software\qBittorrent" "InstallLocation" "$INSTDIR"
+  WriteRegStr HKLM "Software\zoidtorrent" "InstallLocation" "$INSTDIR"
 
   ; Write the uninstall keys for Windows
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "DisplayName" "qBittorrent ${PROG_VERSION}"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "UninstallString" '"$INSTDIR\uninst.exe"'
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "DisplayIcon" '"$INSTDIR\qbittorrent.exe",0'
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "Publisher" "The qBittorrent project"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "URLInfoAbout" "https://www.qbittorrent.org"
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "DisplayVersion" "${PROG_VERSION}"
-  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "NoModify" 1
-  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "NoRepair" 1
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "DisplayName" "zoidtorrent ${PROG_VERSION}"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "UninstallString" '"$INSTDIR\uninst.exe"'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "DisplayIcon" '"$INSTDIR\zoidtorrent.exe",0'
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "Publisher" "The zoidtorrent project"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "URLInfoAbout" "https://www.zoidtorrent.org"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "DisplayVersion" "${PROG_VERSION}"
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "NoModify" 1
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "NoRepair" 1
   WriteUninstaller "uninst.exe"
   ${GetSize} "$INSTDIR" "/S=0K" $0 $1 $2
   IntFmt $0 "0x%08X" $0
-  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\qBittorrent" "EstimatedSize" "$0"
+  WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\zoidtorrent" "EstimatedSize" "$0"
 
-  ; qBittorrent ProgID
-  WriteRegStr HKLM "Software\Classes\qBittorrent" "" "qBittorrent Torrent File"
-  WriteRegStr HKLM "Software\Classes\qBittorrent" "FriendlyTypeName" "qBittorrent Torrent File"
-  WriteRegStr HKLM "Software\Classes\qBittorrent\shell" "" "open"
-  WriteRegStr HKLM "Software\Classes\qBittorrent\shell\open\command" "" '"$INSTDIR\qbittorrent.exe" "%1"'
-  WriteRegStr HKLM "Software\Classes\qBittorrent\DefaultIcon" "" '"$INSTDIR\qbittorrent.exe",1'
+  ; zoidtorrent ProgID
+  WriteRegStr HKLM "Software\Classes\zoidtorrent" "" "zoidtorrent Torrent File"
+  WriteRegStr HKLM "Software\Classes\zoidtorrent" "FriendlyTypeName" "zoidtorrent Torrent File"
+  WriteRegStr HKLM "Software\Classes\zoidtorrent\shell" "" "open"
+  WriteRegStr HKLM "Software\Classes\zoidtorrent\shell\open\command" "" '"$INSTDIR\zoidtorrent.exe" "%1"'
+  WriteRegStr HKLM "Software\Classes\zoidtorrent\DefaultIcon" "" '"$INSTDIR\zoidtorrent.exe",1'
 
 SectionEnd
 
 ; Optional section (can be disabled by the user)
 Section /o $(inst_dekstop) ;"Create Desktop Shortcut"
 
-  CreateShortCut "$DESKTOP\qBittorrent.lnk" "$INSTDIR\qbittorrent.exe"
+  CreateShortCut "$DESKTOP\zoidtorrent.lnk" "$INSTDIR\zoidtorrent.exe"
 
 SectionEnd
 
 Section $(inst_startmenu) ;"Create Start Menu Shortcut"
 
-  CreateDirectory "$SMPROGRAMS\qBittorrent"
-  CreateShortCut "$SMPROGRAMS\qBittorrent\qBittorrent.lnk" "$INSTDIR\qbittorrent.exe"
-  CreateShortCut "$SMPROGRAMS\qBittorrent\$(inst_uninstall_link_description).lnk" "$INSTDIR\uninst.exe"
+  CreateDirectory "$SMPROGRAMS\zoidtorrent"
+  CreateShortCut "$SMPROGRAMS\zoidtorrent\zoidtorrent.lnk" "$INSTDIR\zoidtorrent.exe"
+  CreateShortCut "$SMPROGRAMS\zoidtorrent\$(inst_uninstall_link_description).lnk" "$INSTDIR\uninst.exe"
 
 SectionEnd
 
-Section /o $(inst_startup) ;"Start qBittorrent on Windows start up"
+Section /o $(inst_startup) ;"Start zoidtorrent on Windows start up"
 
   !insertmacro UAC_AsUser_Call Function inst_startup_user ${UAC_SYNCREGISTERS}|${UAC_SYNCOUTDIR}|${UAC_SYNCINSTDIR}
 
@@ -90,15 +90,15 @@ SectionEnd
 
 Function inst_startup_user
 
-  WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Run" "qBittorrent" "$INSTDIR\qbittorrent.exe"
+  WriteRegStr HKCU "Software\Microsoft\Windows\CurrentVersion\Run" "zoidtorrent" "$INSTDIR\zoidtorrent.exe"
 
 FunctionEnd
 
-Section $(inst_torrent) ;"Open .torrent files with qBittorrent"
+Section $(inst_torrent) ;"Open .torrent files with zoidtorrent"
 
   ReadRegStr $0 HKLM "Software\Classes\.torrent" ""
 
-  StrCmp $0 "qBittorrent" clear_errors 0
+  StrCmp $0 "zoidtorrent" clear_errors 0
   ;Check if empty string
   StrCmp $0 "" clear_errors 0
   ;Write old value to OpenWithProgIds
@@ -107,7 +107,7 @@ Section $(inst_torrent) ;"Open .torrent files with qBittorrent"
   clear_errors:
   ClearErrors
 
-  WriteRegStr HKLM "Software\Classes\.torrent" "" "qBittorrent"
+  WriteRegStr HKLM "Software\Classes\.torrent" "" "zoidtorrent"
   WriteRegStr HKLM "Software\Classes\.torrent" "Content Type" "application/x-bittorrent"
 
   !insertmacro UAC_AsUser_Call Function inst_torrent_user ${UAC_SYNCREGISTERS}|${UAC_SYNCOUTDIR}|${UAC_SYNCINSTDIR}
@@ -120,7 +120,7 @@ Function inst_torrent_user
 
   ReadRegStr $0 HKCU "Software\Classes\.torrent" ""
 
-  StrCmp $0 "qBittorrent" clear_errors 0
+  StrCmp $0 "zoidtorrent" clear_errors 0
   ;Check if empty string
   StrCmp $0 "" clear_errors 0
   ;Write old value to OpenWithProgIds
@@ -129,19 +129,19 @@ Function inst_torrent_user
   clear_errors:
   ClearErrors
 
-  WriteRegStr HKCU "Software\Classes\.torrent" "" "qBittorrent"
+  WriteRegStr HKCU "Software\Classes\.torrent" "" "zoidtorrent"
   WriteRegStr HKCU "Software\Classes\.torrent" "Content Type" "application/x-bittorrent"
 
 FunctionEnd
 
-Section $(inst_magnet) ;"Open magnet links with qBittorrent"
+Section $(inst_magnet) ;"Open magnet links with zoidtorrent"
 
   WriteRegStr HKLM "Software\Classes\magnet" "" "URL:Magnet link"
   WriteRegStr HKLM "Software\Classes\magnet" "Content Type" "application/x-magnet"
   WriteRegStr HKLM "Software\Classes\magnet" "URL Protocol" ""
-  WriteRegStr HKLM "Software\Classes\magnet\DefaultIcon" "" '"$INSTDIR\qbittorrent.exe",1'
+  WriteRegStr HKLM "Software\Classes\magnet\DefaultIcon" "" '"$INSTDIR\zoidtorrent.exe",1'
   WriteRegStr HKLM "Software\Classes\magnet\shell" "" "open"
-  WriteRegStr HKLM "Software\Classes\magnet\shell\open\command" "" '"$INSTDIR\qbittorrent.exe" "%1"'
+  WriteRegStr HKLM "Software\Classes\magnet\shell\open\command" "" '"$INSTDIR\zoidtorrent.exe" "%1"'
 
   !insertmacro UAC_AsUser_Call Function inst_magnet_user ${UAC_SYNCREGISTERS}|${UAC_SYNCOUTDIR}|${UAC_SYNCINSTDIR}
 
@@ -154,16 +154,16 @@ Function inst_magnet_user
   WriteRegStr HKCU "Software\Classes\magnet" "" "URL:Magnet link"
   WriteRegStr HKCU "Software\Classes\magnet" "Content Type" "application/x-magnet"
   WriteRegStr HKCU "Software\Classes\magnet" "URL Protocol" ""
-  WriteRegStr HKCU "Software\Classes\magnet\DefaultIcon" "" '"$INSTDIR\qbittorrent.exe",1'
+  WriteRegStr HKCU "Software\Classes\magnet\DefaultIcon" "" '"$INSTDIR\zoidtorrent.exe",1'
   WriteRegStr HKCU "Software\Classes\magnet\shell" "" "open"
-  WriteRegStr HKCU "Software\Classes\magnet\shell\open\command" "" '"$INSTDIR\qbittorrent.exe" "%1"'
+  WriteRegStr HKCU "Software\Classes\magnet\shell\open\command" "" '"$INSTDIR\zoidtorrent.exe" "%1"'
 
 FunctionEnd
 
 Section $(inst_firewall)
 
   DetailPrint $(inst_firewallinfo)
-  nsisFirewallW::AddAuthorizedApplication "$INSTDIR\qbittorrent.exe" "qBittorrent"
+  nsisFirewallW::AddAuthorizedApplication "$INSTDIR\zoidtorrent.exe" "zoidtorrent"
 
 SectionEnd
 
@@ -192,7 +192,7 @@ Function .onInit
     ${EndIf}
   !endif
 
-  ;Search if qBittorrent is already installed.
+  ;Search if zoidtorrent is already installed.
   FindFirst $0 $1 "$INSTDIR\uninst.exe"
   FindClose $0
   StrCmp $1 "" done
@@ -211,7 +211,7 @@ FunctionEnd
 Function check_instance
 
   check:
-  FindProcDLL::FindProc "qbittorrent.exe"
+  FindProcDLL::FindProc "zoidtorrent.exe"
   StrCmp $R0 "1" 0 notfound
   MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(inst_warning) IDRETRY check IDCANCEL done
 
@@ -224,7 +224,7 @@ FunctionEnd
 
 Function PageFinishRun
 
-  !insertmacro UAC_AsUser_ExecShell "" "$INSTDIR\qbittorrent.exe" "" "" ""
+  !insertmacro UAC_AsUser_ExecShell "" "$INSTDIR\zoidtorrent.exe" "" "" ""
 
 FunctionEnd
 

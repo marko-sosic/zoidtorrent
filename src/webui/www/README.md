@@ -1,4 +1,4 @@
-qBittorrent Web UI
+zoidtorrent Web UI
 ---
 
 ### Browser compatibility

@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Thoát qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Thoát zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,11 +140,11 @@
         <translation>Giới hạn số lượng tối đa các phần tải lên của mỗi torrent phải lớn hơn 0 nếu không sẽ bị vô hiệu hóa.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Không thể lưu các tùy biến của chương trình, qBittorrent có thể không thể được điều khiển theo mong muốn.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Không thể lưu các tùy biến của chương trình, zoidtorrent có thể không thể được điều khiển theo mong muốn.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
+        <source>IRC: #zoidtorrent on Freenode</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -292,8 +292,8 @@
         <translation>Lưu lại</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Hiện không thể kết nối đến máy trạm của qBittorrent</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Hiện không thể kết nối đến máy trạm của zoidtorrent</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent đã bị tắt</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent đã bị tắt</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,12 +467,12 @@
         <translation>Giới Hạn Tốc Độ Tải Xuống Chung</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
+        <source>Are you sure you want to quit zoidtorrent?</source>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
         <translation type="unfinished" />
     </message>
     <message>
@@ -1173,7 +1173,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2572,7 +2572,7 @@
         <translation>Đồng thời xóa các tập tin trên ổ đĩa</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
+        <source>Deletion confirmation - zoidtorrent</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -2969,7 +2969,7 @@
         <translation>Tên:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2981,7 +2981,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

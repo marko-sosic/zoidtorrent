@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Вийти з qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Вийти з zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Максимальна кількість з'єднань для відвантаження на торрент повинна бути більша 0 або відсутня.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Не вдалося зберегти налаштування програми, можливо qBittorrent недоступний.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Не вдалося зберегти налаштування програми, можливо zoidtorrent недоступний.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent на Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent на Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Порт, який використовується для Веб-інтерфейсу повинен бути між 1 і 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Не вдалося увійти, qBittorrent напевне недосяжний.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Не вдалося увійти, zoidtorrent напевне недосяжний.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Зберегти</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Клієнт qBittorrent недосяжний</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Клієнт zoidtorrent недосяжний</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Поріг швидкості завантаження повинен бути більше 0.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent вимкнено.</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent вимкнено.</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Глобальний ліміт завантаження</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Ви впевнені, що хочете вийти з qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Ви впевнені, що хочете вийти з zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[З: %1, В: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[З: %1, В: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Видалити торрент і його файли</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>Розділ qBittorrent</translation>
+        <source>zoidtorrent Section</source>
+        <translation>Розділ zoidtorrent</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Також видалити файли на жорсткому диску</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Підтвердження видалення - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Підтвердження видалення - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2946,7 +2946,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Про qBittorrent</translation>
+        <translation>Про zoidtorrent</translation>
     </message>
     <message>
         <source>Forum:</source>
@@ -2981,8 +2981,8 @@
         <translation>Ім’я:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Про qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Про zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Перекладачі</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent було збудовано з наступними бібліотеками:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent було збудовано з наступними бібліотеками:</translation>
     </message>
     <message>
         <source>Nationality:</source>

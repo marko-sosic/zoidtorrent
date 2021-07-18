@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Išeiti iš qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Išeiti iš zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Didžiausias išsiuntimo prisijungimų kiekis vienam torentui privalo būti arba aukštesnis už 0, arba išjungtas.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Nepavyko išsaugoti programos nuostatų, qBittorrent tikriausiai yra nepasiekiama.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Nepavyko išsaugoti programos nuostatų, zoidtorrent tikriausiai yra nepasiekiama.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent Freenode serveryje</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent Freenode serveryje</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Tinklo naudotojo sąsajos prievadas privalo būti tarp 1 ir 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Negalima prisijungti, qBittorrent, tikriausiai, yra nepasiekamas.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Negalima prisijungti, zoidtorrent, tikriausiai, yra nepasiekamas.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Išsaugoti</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent klientas nepasiekiamas</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent klientas nepasiekiamas</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Atsiuntimo greičio slenkstis privalo būti didesnis už 0.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent išjungta</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent išjungta</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Visuotinis atsiuntimo greičio apribojimas</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Ar tikrai norite išeiti iš qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Ar tikrai norite išeiti iš zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[A: %1, I: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[A: %1, I: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Šalinti torentą ir jo failus</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent sekcija</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent sekcija</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Taipogi ištrinti failus iš kietojo disko</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Ištrynimo patvirtinimas - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Ištrynimo patvirtinimas - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Apie qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Apie zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,7 +2993,7 @@
         <translation>Vertėjai</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

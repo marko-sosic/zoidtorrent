@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Sulje qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Sulje zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Lähetyslohkojen torrenttikohtaisen enimmäismäärän pitää olla suurempi kuin 0 tai poistettu käytöstä.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Asetuksia ei voitu tallentaa, qBittorrenttiin ei todennäköisesti saada yhteyttä.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Asetuksia ei voitu tallentaa, zoidtorrenttiin ei todennäköisesti saada yhteyttä.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent Freenode-verkossa</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent Freenode-verkossa</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Web-käyttöliittymälle tarkoitetun portin numero pitää olla väliltä 1-65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Kirjautuminen epäonnistui, qBittorrent ei luultavasti ole tavoitettavissa.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Kirjautuminen epäonnistui, zoidtorrent ei luultavasti ole tavoitettavissa.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Tallenna</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent ei vastaa</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent ei vastaa</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent on sammutettu</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent on sammutettu</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Yleinen latausnopeusrajoitus</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Haluatko varmasti lopettaa qBittorrentin?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Haluatko varmasti lopettaa zoidtorrentin?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[Lataus: %1, Lähetys: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[Lataus: %1, Lähetys: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1173,8 +1173,8 @@
         <translation>Poista torrent ja sen tiedostot</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrentin asetukset</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrentin asetukset</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2580,7 +2580,7 @@
         <translation>Poista tiedostot myös kiintolevyltä</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
+        <source>Deletion confirmation - zoidtorrent</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -2977,8 +2977,8 @@
         <translation>Nimi:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Tietoa qBittorrentista</translation>
+        <source>About zoidtorrent</source>
+        <translation>Tietoa zoidtorrentista</translation>
     </message>
     <message>
         <source>License</source>
@@ -2989,8 +2989,8 @@
         <translation>Kääntäjät</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent rakennettiin käyttäen seuraavia kirjastoja:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent rakennettiin käyttäen seuraavia kirjastoja:</translation>
     </message>
     <message>
         <source>Nationality:</source>

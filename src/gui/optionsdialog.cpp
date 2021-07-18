@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2006  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2006  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -580,10 +580,10 @@ void OptionsDialog::initializeLanguageCombo()
 {
     // List language files
     const QDir langDir(":/lang");
-    const QStringList langFiles = langDir.entryList(QStringList("qbittorrent_*.qm"), QDir::Files);
+    const QStringList langFiles = langDir.entryList(QStringList("zoidtorrent_*.qm"), QDir::Files);
     for (const QString &langFile : langFiles)
     {
-        QString localeStr = langFile.mid(12); // remove "qbittorrent_"
+        QString localeStr = langFile.mid(12); // remove "zoidtorrent_"
         localeStr.chop(3); // Remove ".qm"
         QString languageName;
         if (localeStr.startsWith("eo", Qt::CaseInsensitive))
@@ -652,7 +652,7 @@ void OptionsDialog::saveOptions()
     if (pref->getLocale() != locale)
     {
         auto *translator = new QTranslator;
-        if (translator->load(QLatin1String(":/lang/qbittorrent_") + locale))
+        if (translator->load(QLatin1String(":/lang/zoidtorrent_") + locale))
             qDebug("%s locale recognized, using translation.", qUtf8Printable(locale));
         else
             qDebug("%s locale unrecognized, using default (en).", qUtf8Printable(locale));

@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>結束 qbittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>結束 zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>每個 torrent 上傳通道的最大數限制必須大於 0 或停用。</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>無法儲存程式偏好設定，qBittorrent 可能無法連線。</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>無法儲存程式偏好設定，zoidtorrent 可能無法連線。</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC：#qbittorrent 在 Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC：#zoidtorrent 在 Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Web UI 使用的埠號必須在 1 到 65535 之間。</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>無法登入，qBittorrent 可能無法連線。</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>無法登入，zoidtorrent 可能無法連線。</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>儲存</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>連接不到 qBittorrent 客戶端</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>連接不到 zoidtorrent 客戶端</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>下載速率閾值必須大於 0。</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent 已經關閉</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent 已經關閉</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>全域下載速率限制</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>您確定要退出 qBittorrent 嗎？</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>您確定要退出 zoidtorrent 嗎？</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[下載：%1，上傳：%2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[下載：%1，上傳：%2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>移除 torrent 與其檔案</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent 小節</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent 小節</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>也把硬碟裡的檔案刪除</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>刪除確認 - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>刪除確認 - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>名稱：</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>關於 qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>關於 zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>翻譯者</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent 是使用下列函式庫建構：</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent 是使用下列函式庫建構：</translation>
     </message>
     <message>
         <source>Nationality:</source>

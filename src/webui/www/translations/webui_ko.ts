@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>qBittorrent 종료</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>zoidtorrent 종료</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>토렌트 당 최대 올리기 슬롯 제한은 0보다 크거나 사용하지 않아야 합니다.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>프로그램 설정을 저장할 수 없습니다. qBittorrent가 접근할 수 없는 것 같습니다.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>프로그램 설정을 저장할 수 없습니다. zoidtorrent가 접근할 수 없는 것 같습니다.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: Freenode #qbittorrent 채널</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: Freenode #zoidtorrent 채널</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>웹 UI에 사용하는 포트는 1 ~ 65535여야 합니다.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>로그인 할 수 없습니다. qBittorrent가 접근할 수 없는 것 같습니다.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>로그인 할 수 없습니다. zoidtorrent가 접근할 수 없는 것 같습니다.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>저장</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent 클라이언트에 접근할 수 없습니다</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent 클라이언트에 접근할 수 없습니다</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>받기 속도 임계값은 0보다 커야 합니다.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent가 종료됐습니다</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent가 종료됐습니다</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>전역 받기 속도 제한</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>qBittorrent를 종료하시겠습니까?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>zoidtorrent를 종료하시겠습니까?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[D: %1, U: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[D: %1, U: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>토렌트 및 파일 제거</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent 부분</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent 부분</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>하드 디스크 파일도 삭제</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>삭제 확인 - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>삭제 확인 - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>이름:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>qBittorrent 소개</translation>
+        <source>About zoidtorrent</source>
+        <translation>zoidtorrent 소개</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>번역자</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent는 다음 라이브러리로 만들었습니다:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent는 다음 라이브러리로 만들었습니다:</translation>
     </message>
     <message>
         <source>Nationality:</source>

@@ -1,6 +1,6 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
- * Copyright (C) 2006  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2006  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -159,7 +159,7 @@ MainWindow::MainWindow(QWidget *parent)
     m_displaySpeedInTitle = pref->speedInTitleBar();
     // Setting icons
 #ifndef Q_OS_MACOS
-    const QIcon appLogo(UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent"), QLatin1String("qbittorrent-tray")));
+    const QIcon appLogo(UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent"), QLatin1String("zoidtorrent-tray")));
     setWindowIcon(appLogo);
 #endif // Q_OS_MACOS
 
@@ -764,7 +764,7 @@ void MainWindow::updateNbTorrents()
 
 void MainWindow::on_actionDocumentation_triggered() const
 {
-    QDesktopServices::openUrl(QUrl("http://doc.qbittorrent.org"));
+    QDesktopServices::openUrl(QUrl("http://doc.zoidtorrent.org"));
 }
 
 void MainWindow::tabChanged(int newTab)
@@ -1686,9 +1686,9 @@ void MainWindow::showNotificationBaloon(const QString &title, const QString &msg
     // some inactivity shuts it down. Other DEs, like GNOME, choose
     // to start their daemons at the session startup and have it sit
     // idling for the whole session.
-    const QVariantMap hints {{QLatin1String("desktop-entry"), QLatin1String("org.qbittorrent.qBittorrent")}};
-    QDBusPendingReply<uint> reply = notifications.Notify(QLatin1String("qBittorrent"), 0
-        , QLatin1String("qbittorrent"), title, msg, {}, hints, getNotificationTimeout());
+    const QVariantMap hints {{QLatin1String("desktop-entry"), QLatin1String("org.zoidtorrent.zoidtorrent")}};
+    QDBusPendingReply<uint> reply = notifications.Notify(QLatin1String("zoidtorrent"), 0
+        , QLatin1String("zoidtorrent"), title, msg, {}, hints, getNotificationTimeout());
 
     reply.waitForFinished();
     if (!reply.isError())
@@ -1944,7 +1944,7 @@ void MainWindow::handleUpdateCheckFinished(ProgramUpdater *updater, const bool i
     {
         const QString msg {tr("A new version is available.") + "<br/>"
             + tr("Do you want to download %1?").arg(newVersion) + "<br/><br/>"
-            + QString::fromLatin1("<a href=\"https://www.qbittorrent.org/news.php\">%1</a>").arg(tr("Open changelog..."))};
+            + QString::fromLatin1("<a href=\"https://www.zoidtorrent.org/news.php\">%1</a>").arg(tr("Open changelog..."))};
         auto *msgBox = new QMessageBox {QMessageBox::Question, tr("zoidtorrent Update Available"), msg
             , (QMessageBox::Yes | QMessageBox::No), this};
         msgBox->setAttribute(Qt::WA_DeleteOnClose);
@@ -1987,7 +1987,7 @@ void MainWindow::toggleAlternativeSpeeds()
 
 void MainWindow::on_actionDonateMoney_triggered()
 {
-    QDesktopServices::openUrl(QUrl("https://www.qbittorrent.org/donate"));
+    QDesktopServices::openUrl(QUrl("https://www.zoidtorrent.org/donate"));
 }
 
 void MainWindow::showConnectionSettings()
@@ -2106,11 +2106,11 @@ QIcon MainWindow::getSystrayIcon() const
     switch (style)
     {
     case TrayIcon::NORMAL:
-        return QIcon::fromTheme(QLatin1String("qbittorrent-tray"));
+        return QIcon::fromTheme(QLatin1String("zoidtorrent-tray"));
     case TrayIcon::MONO_DARK:
-        return QIcon::fromTheme(QLatin1String("qbittorrent-tray-dark"));
+        return QIcon::fromTheme(QLatin1String("zoidtorrent-tray-dark"));
     case TrayIcon::MONO_LIGHT:
-        return QIcon::fromTheme(QLatin1String("qbittorrent-tray-light"));
+        return QIcon::fromTheme(QLatin1String("zoidtorrent-tray-light"));
     default:
         break;
     }
@@ -2118,18 +2118,18 @@ QIcon MainWindow::getSystrayIcon() const
     switch (style)
     {
     case TrayIcon::NORMAL:
-        return UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent-tray"));
+        return UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent-tray"));
     case TrayIcon::MONO_DARK:
-        return UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent-tray-dark"));
+        return UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent-tray-dark"));
     case TrayIcon::MONO_LIGHT:
-        return UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent-tray-light"));
+        return UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent-tray-light"));
     default:
         break;
     }
 #endif
 
     // As a failsafe in case the enum is invalid
-    return UIThemeManager::instance()->getIcon(QLatin1String("qbittorrent-tray"));
+    return UIThemeManager::instance()->getIcon(QLatin1String("zoidtorrent-tray"));
 }
 #endif // Q_OS_MACOS
 

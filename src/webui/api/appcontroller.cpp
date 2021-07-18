@@ -1,8 +1,8 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
  * Copyright (C) 2018  Vladimir Golovnev <glassez@yandex.ru>
- * Copyright (C) 2006-2012  Christophe Dumez <chris@qbittorrent.org>
- * Copyright (C) 2006-2012  Ishan Arora <ishan@qbittorrent.org>
+ * Copyright (C) 2006-2012  Christophe Dumez <chris@zoidtorrent.org>
+ * Copyright (C) 2006-2012  Ishan Arora <ishan@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -616,7 +616,7 @@ void AppController::setPreferencesAction()
         if (pref->getLocale() != locale)
         {
             auto *translator = new QTranslator;
-            if (translator->load(QLatin1String(":/lang/qbittorrent_") + locale))
+            if (translator->load(QLatin1String(":/lang/zoidtorrent_") + locale))
             {
                 qDebug("%s locale recognized, using translation.", qUtf8Printable(locale));
             }
@@ -714,7 +714,7 @@ void AppController::setPreferencesAction()
         RSS::AutoDownloader::instance()->setSmartEpisodeFilters(it.value().toString().split('\n'));
 
     // Advanced settings
-    // qBittorrent preferences
+    // zoidtorrent preferences
     // Current network interface
     if (hasKey("current_network_interface"))
     {

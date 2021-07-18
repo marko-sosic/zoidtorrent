@@ -1,0 +1,3 @@
+IDI_ICON1 ICON DISCARDABLE "icons/zoidtorrent.ico"
+IDI_ICON2 ICON DISCARDABLE "icons/zoidtorrent_file.ico"
+1 24 DISCARDABLE "zoidtorrent.exe.manifest"

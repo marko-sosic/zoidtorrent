@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>qBittorrent'ten Çık</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>zoidtorrent'ten Çık</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Torrent başına en fazla gönderme yuvası sınırı sayısı 0'dan büyük olmak ya da etkisizleştirilmek zorundadır.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Program tercihleri kaydedilemiyor, qBittorrent'e muhtemelen ulaşılamıyor.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Program tercihleri kaydedilemiyor, zoidtorrent'e muhtemelen ulaşılamıyor.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: Freenode üzerinde #qbittorrent kanalı</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: Freenode üzerinde #zoidtorrent kanalı</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Web Arayüzü için kullanılan bağlantı noktası 1 ve 65535 arasında olmak zorundadır.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Oturum açılamıyor, qBittorrent'e muhtemelen ulaşılamıyor.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Oturum açılamıyor, zoidtorrent'e muhtemelen ulaşılamıyor.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Kaydet</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent istemcisine ulaşılamıyor</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent istemcisine ulaşılamıyor</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>İndirme oranı eşiği 0'dan büyük olmak zorundadır.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent kapatıldı</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent kapatıldı</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Genel İndirme Hızı Sınırı</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>qBittorrent uygulamasından çıkmak istediğinize emin misiniz?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>zoidtorrent uygulamasından çıkmak istediğinize emin misiniz?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[İnd: %1, Gön: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[İnd: %1, Gön: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Torrent'i ve dosyalarını kaldır</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent Bölümü</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent Bölümü</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Aynı zamanda sabit diskteki dosyaları da sil</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Silme onayı - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Silme onayı - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Adı:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>qBittorrent Hakkında</translation>
+        <source>About zoidtorrent</source>
+        <translation>zoidtorrent Hakkında</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Çevirmenler</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent aşağıdaki kütüphaneler ile yapıldı:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent aşağıdaki kütüphaneler ile yapıldı:</translation>
     </message>
     <message>
         <source>Nationality:</source>

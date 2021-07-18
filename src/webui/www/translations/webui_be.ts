@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Выйсці з qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Выйсці з zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Максімальная колькасць слотаў раздачы на торэнт мусіць быць болей за 0 або адключана.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Не выйшла захаваць настáўленні. Магчыма, qBittorrent недасяжны.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Не выйшла захаваць настáўленні. Магчыма, zoidtorrent недасяжны.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent на Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent на Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>Порт для вэб-інтэрфейсу мусіць быць паміж 1 і 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Немагчыма ўвайсці. Выглядае, што qBittorrent недасяжны.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Немагчыма ўвайсці. Выглядае, што zoidtorrent недасяжны.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Захаваць</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>Кліент qBittorrent недасяжны</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>Кліент zoidtorrent недасяжны</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,7 +332,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
+        <source>zoidtorrent has been shutdown</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -424,7 +424,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Пра qBittorrent</translation>
+        <translation>Пра zoidtorrent</translation>
     </message>
     <message>
         <source>Pause</source>
@@ -467,13 +467,13 @@
         <translation>Агульнае абмежаванне хуткасці спампавання</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Сапраўды выйсці з qBittorrent?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Сапраўды выйсці з zoidtorrent?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[Сц: %1, Разд: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[Сц: %1, Разд: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,7 +1177,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2584,8 +2584,8 @@
         <translation>Выдаліць таксама і файлы з дыска</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Пацвярджэнне выдалення - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Пацвярджэнне выдалення - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Пра qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Пра zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Перакладчыкі</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent сабраны з выкарыстаннем наступных бібліятэк:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent сабраны з выкарыстаннем наступных бібліятэк:</translation>
     </message>
     <message>
         <source>Nationality:</source>

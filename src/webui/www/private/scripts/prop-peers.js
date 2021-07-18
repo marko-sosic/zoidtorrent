@@ -28,18 +28,18 @@
 
 'use strict';
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.PropPeers = (function() {
+window.zoidtorrent.PropPeers = (function() {
     const exports = function() {
         return {
             updateData: updateData
         }
     };
 
-    const torrentPeersTable = new window.qBittorrent.DynamicTable.TorrentPeersTable();
+    const torrentPeersTable = new window.zoidtorrent.DynamicTable.TorrentPeersTable();
     let loadTorrentPeersTimer;
     let syncTorrentPeersLastResponseId = 0;
     let show_flags = true;
@@ -113,7 +113,7 @@ window.qBittorrent.PropPeers = (function() {
         loadTorrentPeersData();
     };
 
-    const torrentPeersContextMenu = new window.qBittorrent.ContextMenu.ContextMenu({
+    const torrentPeersContextMenu = new window.zoidtorrent.ContextMenu.ContextMenu({
         targets: '#torrentPeersTableDiv',
         menu: 'torrentPeersMenu',
         actions: {
@@ -183,4 +183,4 @@ window.qBittorrent.PropPeers = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.PropPeers);
+Object.freeze(window.zoidtorrent.PropPeers);

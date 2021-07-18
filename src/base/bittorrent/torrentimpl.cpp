@@ -1,7 +1,7 @@
 /*
  * Bittorrent Client using Qt and libtorrent.
  * Copyright (C) 2015  Vladimir Golovnev <glassez@yandex.ru>
- * Copyright (C) 2006  Christophe Dumez <chris@qbittorrent.org>
+ * Copyright (C) 2006  Christophe Dumez <chris@zoidtorrent.org>
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -1138,13 +1138,13 @@ int TorrentImpl::totalLeechersCount() const
 
 int TorrentImpl::completeCount() const
 {
-    // additional info: https://github.com/qbittorrent/qBittorrent/pull/5300#issuecomment-267783646
+    // additional info: https://github.com/zoidtorrent/zoidtorrent/pull/5300#issuecomment-267783646
     return m_nativeStatus.num_complete;
 }
 
 int TorrentImpl::incompleteCount() const
 {
-    // additional info: https://github.com/qbittorrent/qBittorrent/pull/5300#issuecomment-267783646
+    // additional info: https://github.com/zoidtorrent/zoidtorrent/pull/5300#issuecomment-267783646
     return m_nativeStatus.num_incomplete;
 }
 

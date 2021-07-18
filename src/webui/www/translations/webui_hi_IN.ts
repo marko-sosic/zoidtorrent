@@ -92,7 +92,7 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
+        <source>Exit zoidtorrent</source>
         <translation>क्यूबिटटोरेंट बंद करें</translation>
     </message>
     <message>
@@ -140,11 +140,11 @@
         <translation>अपलोड की अधिकतम संख्या हर टारेंट सीमा के लिए 0 या disabled.से अधिक होना चाहिए.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
         <translation>कार्यक्रम वरीयताओं को सहेजने में असमर्थ, क्यूबिटटाॅरेंट शायद अगम्य है।</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
+        <source>IRC: #zoidtorrent on Freenode</source>
         <translation>IRC: #क्यूबिटटाॅरेंट फ्रीनोड पर</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>वेब UI के लिए प्रयुक्त पोर्ट 1024 से अधिक और 65535 से कम होना चाहिए।</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
         <translation>लॉगिन नहीं कर पाए, क्यूबिटटाॅरेंट शायद पहुँच से बाहर है।</translation>
     </message>
     <message>
@@ -292,7 +292,7 @@
         <translation>सहेंजें</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
+        <source>zoidtorrent client is not reachable</source>
         <translation>क्यूबिटटाॅरेंट प्रयोक्ता पहुंच योग्य नहीं है</translation>
     </message>
     <message>
@@ -332,7 +332,7 @@
         <translation>डाउनलोड दर की दहलीज 0 से अधिक होनी चाहिए।</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
+        <source>zoidtorrent has been shutdown</source>
         <translation>क्यूबिटटाॅरेंट को बन्द कर दिया है</translation>
     </message>
     <message>
@@ -467,12 +467,12 @@
         <translation>सार्वभौम डाउनलोड गति सीमा</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
+        <source>Are you sure you want to quit zoidtorrent?</source>
         <translation>क्या आप निश्चित ही क्यूबिटटाॅरेंट बंद करना चाहते हैं?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
         <translation> [↓: %1, ↑: %2]  क्यूबिटटाॅरेंट %3</translation>
     </message>
     <message>
@@ -1177,7 +1177,7 @@
         <translation>टौरेंट और उसकी फाइलों को हटायें</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation>क्यूबिटटाॅरेंट खण्ड</translation>
     </message>
     <message>
@@ -2584,7 +2584,7 @@
         <translation>हार्ड डिस्क की फाइलें भी रद्द करें</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
+        <source>Deletion confirmation - zoidtorrent</source>
         <translation>मिटाने की पुष्टि करें - क्यूबिटटाॅरेंट</translation>
     </message>
 </context>
@@ -2981,7 +2981,7 @@
         <translation>नाम:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation>क्यूबिटटौरेंट के बारे में</translation>
     </message>
     <message>
@@ -2993,7 +2993,7 @@
         <translation>अनुवादक</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation>क्यूबिटटाॅरेंट निम्नलिखित लाइब्रेरी द्वारा निर्मित किया गया है:</translation>
     </message>
     <message>

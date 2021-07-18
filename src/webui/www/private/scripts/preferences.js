@@ -28,11 +28,11 @@
 
 'use strict';
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.LocalPreferences = (function() {
+window.zoidtorrent.LocalPreferences = (function() {
     const exports = function() {
         return {
             LocalPreferencesClass: LocalPreferencesClass
@@ -60,4 +60,4 @@ window.qBittorrent.LocalPreferences = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.LocalPreferences);
+Object.freeze(window.zoidtorrent.LocalPreferences);

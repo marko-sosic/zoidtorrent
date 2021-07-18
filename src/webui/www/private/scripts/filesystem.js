@@ -30,11 +30,11 @@
 
 // This file is the JavaScript implementation of base/utils/fs.cpp
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.Filesystem = (function() {
+window.zoidtorrent.Filesystem = (function() {
     const exports = function() {
         return {
             PathSeparator: PathSeparator,
@@ -77,4 +77,4 @@ window.qBittorrent.Filesystem = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.Filesystem);
+Object.freeze(window.zoidtorrent.Filesystem);

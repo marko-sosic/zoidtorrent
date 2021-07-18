@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>qBittorrent afsluiten</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>zoidtorrent afsluiten</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,12 +140,12 @@
         <translation>Begrenzing voor maximaal aantal uploadslots per torrent moet groter zijn dan 0 of uitgeschakeld.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Onmogelijk om programmavoorkeuren op te slaan, qBittorrent is waarschijnlijk onbereikbaar.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Onmogelijk om programmavoorkeuren op te slaan, zoidtorrent is waarschijnlijk onbereikbaar.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent op Freenode</translation>
+        <source>IRC: #zoidtorrent on Freenode</source>
+        <translation>IRC: #zoidtorrent op Freenode</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -168,8 +168,8 @@
         <translation>De poort gebruikt voor de Web-UI moet liggen tussen 1 en 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Niet mogelijk om in te loggen, qBittorrent is waarschijnlijk onbereikbaar.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Niet mogelijk om in te loggen, zoidtorrent is waarschijnlijk onbereikbaar.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Opslaan</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent-client is niet bereikbaar</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent-client is niet bereikbaar</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,8 +332,8 @@
         <translation>Drempel voor downloadsnelheid moet hoger zijn dan 0.</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
-        <translation>qBittorrent werd afgesloten</translation>
+        <source>zoidtorrent has been shutdown</source>
+        <translation>zoidtorrent werd afgesloten</translation>
     </message>
     <message>
         <source>Open documentation</source>
@@ -467,13 +467,13 @@
         <translation>Algemene downloadsnelheidbegrenzing</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
-        <translation>Weet u zeker dat u qBittorrent wilt afsluiten?</translation>
+        <source>Are you sure you want to quit zoidtorrent?</source>
+        <translation>Weet u zeker dat u zoidtorrent wilt afsluiten?</translation>
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[D: %1, U: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[D: %1, U: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1177,8 +1177,8 @@
         <translation>Torrent en zijn bestanden verwijderen</translation>
     </message>
     <message>
-        <source>qBittorrent Section</source>
-        <translation>qBittorrent-sectie</translation>
+        <source>zoidtorrent Section</source>
+        <translation>zoidtorrent-sectie</translation>
     </message>
     <message>
         <source>Send buffer watermark factor:</source>
@@ -2584,8 +2584,8 @@
         <translation>Ook bestanden op de harde schijf verwijderen</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Bevestiging verwijdering - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Bevestiging verwijdering - zoidtorrent</translation>
     </message>
 </context>
 <context>
@@ -2981,8 +2981,8 @@
         <translation>Naam:</translation>
     </message>
     <message>
-        <source>About qBittorrent</source>
-        <translation>Over qBittorrent</translation>
+        <source>About zoidtorrent</source>
+        <translation>Over zoidtorrent</translation>
     </message>
     <message>
         <source>License</source>
@@ -2993,8 +2993,8 @@
         <translation>Vertalers</translation>
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
-        <translation>qBittorrent werd gebouwd met de volgende bibliotheken:</translation>
+        <source>zoidtorrent was built with the following libraries:</source>
+        <translation>zoidtorrent werd gebouwd met de volgende bibliotheken:</translation>
     </message>
     <message>
         <source>Nationality:</source>

@@ -1,6 +1,6 @@
 /*
  * MIT License
- * Copyright (c) 2008 Ishan Arora <ishan@qbittorrent.org>
+ * Copyright (c) 2008 Ishan Arora <ishan@zoidtorrent.org>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -23,11 +23,11 @@
 
 'use strict';
 
-if (window.qBittorrent === undefined) {
-    window.qBittorrent = {};
+if (window.zoidtorrent === undefined) {
+    window.zoidtorrent = {};
 }
 
-window.qBittorrent.Download = (function() {
+window.zoidtorrent.Download = (function() {
     const exports = function() {
         return {
             changeCategorySelect: changeCategorySelect,
@@ -64,7 +64,7 @@ window.qBittorrent.Download = (function() {
             method: 'get',
             noCache: true,
             onFailure: function() {
-                alert("Could not contact qBittorrent");
+                alert("Could not contact zoidtorrent");
             },
             onSuccess: function(pref) {
                 if (!pref)
@@ -143,4 +143,4 @@ window.qBittorrent.Download = (function() {
     return exports();
 })();
 
-Object.freeze(window.qBittorrent.Download);
+Object.freeze(window.zoidtorrent.Download);

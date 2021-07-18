@@ -92,8 +92,8 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
-        <translation>Zatvorite qBittorrent</translation>
+        <source>Exit zoidtorrent</source>
+        <translation>Zatvorite zoidtorrent</translation>
     </message>
     <message>
         <source>Only one link per line</source>
@@ -140,11 +140,11 @@
         <translation>Ograničenje najvećeg broja mjesta za slanje po torrentu mora biti veći od 0 ili onemogućeno.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Nije moguće spremiti postavke programa. qBittorrent je vjerojatno nedostupan.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Nije moguće spremiti postavke programa. zoidtorrent je vjerojatno nedostupan.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
+        <source>IRC: #zoidtorrent on Freenode</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -168,8 +168,8 @@
         <translation>Port korišten za web sučelje mora biti između  1 i 65535.</translation>
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
-        <translation>Nije moguća prijava. qBittorrent je vjerojatno nedostupan.</translation>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
+        <translation>Nije moguća prijava. zoidtorrent je vjerojatno nedostupan.</translation>
     </message>
     <message>
         <source>Invalid Username or Password.</source>
@@ -292,8 +292,8 @@
         <translation>Spremi</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent klijent nije dostupan</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent klijent nije dostupan</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -332,7 +332,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
+        <source>zoidtorrent has been shutdown</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -467,13 +467,13 @@
         <translation>Globalno ograničenje brzine preuzimanja</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
+        <source>Are you sure you want to quit zoidtorrent?</source>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
-        <translation>[P: %1, S: %2] qBittorrent %3</translation>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
+        <translation>[P: %1, S: %2] zoidtorrent %3</translation>
     </message>
     <message>
         <source>Alternative speed limits</source>
@@ -1173,7 +1173,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2576,7 +2576,7 @@
         <translation>Također ukloni datoteke i na čvrstom disku</translation>
     </message>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
+        <source>Deletion confirmation - zoidtorrent</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -2973,7 +2973,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2985,7 +2985,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

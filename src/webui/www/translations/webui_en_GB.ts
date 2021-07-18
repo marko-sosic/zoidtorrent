@@ -92,7 +92,7 @@
 <context>
     <name>HttpServer</name>
     <message>
-        <source>Exit qBittorrent</source>
+        <source>Exit zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -140,11 +140,11 @@
         <translation>Maximum number of upload slots per torrent limit must be greater than 0 or disabled.</translation>
     </message>
     <message>
-        <source>Unable to save program preferences, qBittorrent is probably unreachable.</source>
-        <translation>Unable to save program preferences, qBittorrent is probably unreachable.</translation>
+        <source>Unable to save program preferences, zoidtorrent is probably unreachable.</source>
+        <translation>Unable to save program preferences, zoidtorrent is probably unreachable.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
+        <source>IRC: #zoidtorrent on Freenode</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>Unable to log in, qBittorrent is probably unreachable.</source>
+        <source>Unable to log in, zoidtorrent is probably unreachable.</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -292,12 +292,12 @@
         <translation>Save</translation>
     </message>
     <message>
-        <source>qBittorrent client is not reachable</source>
-        <translation>qBittorrent client is not reachable</translation>
+        <source>zoidtorrent client is not reachable</source>
+        <translation>zoidtorrent client is not reachable</translation>
     </message>
     <message>
-        <source>qBittorrent has been shutdown.</source>
-        <translation type="vanished">qBittorrent has been shutdown.</translation>
+        <source>zoidtorrent has been shutdown.</source>
+        <translation type="vanished">zoidtorrent has been shutdown.</translation>
     </message>
     <message>
         <source>Global number of upload slots limit must be greater than 0 or disabled.</source>
@@ -336,7 +336,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent has been shutdown</source>
+        <source>zoidtorrent has been shutdown</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -471,12 +471,12 @@
         <translation>Global Download Speed Limit</translation>
     </message>
     <message>
-        <source>Are you sure you want to quit qBittorrent?</source>
+        <source>Are you sure you want to quit zoidtorrent?</source>
         <translation type="unfinished" />
     </message>
     <message>
-        <source>[D: %1, U: %2] qBittorrent %3</source>
-        <comment>D = Download; U = Upload; %3 is qBittorrent version</comment>
+        <source>[D: %1, U: %2] zoidtorrent %3</source>
+        <comment>D = Download; U = Upload; %3 is zoidtorrent version</comment>
         <translation type="unfinished" />
     </message>
     <message>
@@ -1177,7 +1177,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent Section</source>
+        <source>zoidtorrent Section</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -2588,8 +2588,8 @@
 <context>
     <name>confirmDeletionDlg</name>
     <message>
-        <source>Deletion confirmation - qBittorrent</source>
-        <translation>Deletion confirmation - qBittorrent</translation>
+        <source>Deletion confirmation - zoidtorrent</source>
+        <translation>Deletion confirmation - zoidtorrent</translation>
     </message>
     <message>
         <source>Deletion confirmation</source>
@@ -2993,7 +2993,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>About qBittorrent</source>
+        <source>About zoidtorrent</source>
         <translation type="unfinished" />
     </message>
     <message>
@@ -3005,7 +3005,7 @@
         <translation type="unfinished" />
     </message>
     <message>
-        <source>qBittorrent was built with the following libraries:</source>
+        <source>zoidtorrent was built with the following libraries:</source>
         <translation type="unfinished" />
     </message>
     <message>

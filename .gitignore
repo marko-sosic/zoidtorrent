@@ -44,3 +44,5 @@ build/
 # Web UI tools
 node_modules
 package-lock.json
+
+settings/Local/qBittorrent/GeoDB/dbip-country-lite.mmdb

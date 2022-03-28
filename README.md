@@ -54,6 +54,10 @@ sledgehammer999 \<sledgehammer999@qbittorrent.org\>
 
 ### Build Notes:
 
+git fetch upstream
+git checkout tags/release-4.4.2
+git checkout -B release/public
+
 Run 'x64 Native Tools Command Prompt for VS 2019'<br />
 
 Upgrade vcpkg:<br />
